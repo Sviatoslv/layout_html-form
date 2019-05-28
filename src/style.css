@@ -1,28 +1,12 @@
-
-fieldset {
-  margin-bottom: 20px;
-}
-
-fieldset:last-of-type {
-  margin-bottom: 2px;
-}
-
-fieldset input {
+.wrapper {
+  display: block;
   margin-bottom: 10px;
 }
 
-fieldset input:last-child {
+.wrapper:last-child {
   margin-bottom: 0;
 }
 
-fieldset input[type="range"] {
-  margin-top: 12px;
-}
-
-fieldset select[name="recommendation"] {
-  margin-top: 10px;
-}
-
-fieldset input[type="color"] {
-  margin-top: 4px;
+fieldset {
+  margin-bottom: 20px;
 }
